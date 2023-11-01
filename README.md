@@ -16,7 +16,7 @@ Leveraging Word Guessing Games to Assess the Intelligence of Large Language Mode
 :ferris_wheel: Welcome and feel free to try our demo <a href="https://64302e3be3fabc2338.gradio.live/">here</a> !
 
 ## Citation
-```
+```ruby
 @misc{liang2023spygame,
       title={Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models}, 
       author={Tian Liang and Zhiwei He and Jen-tse Huang and Wenxuan Wang and Wenxiang Jiao and Rui Wang and Yujiu Yang and Zhaopeng Tu and Shuming Shi and Xing Wang},
