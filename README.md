@@ -2,11 +2,11 @@
   <img src="imgs/spygame.jpeg" alt="Logo" width="200">
 </div>
 
-<h2 align="center">⚖️ SpyGame: An Interactive Multi-Agent Framework</h2>
+<h2 align="center">:video_game: SpyGame: An Interactive Multi-Agent Framework</h2>
 
-:fire:This work aims to leverage word guessing games to assess the intelligence of large language models.
+:fire: This work aims to leverage word guessing games to assess the intelligence of large language models.
 
-:ferris_wheel:Welcome and feel free to try our demo <a href="https://2a8699da52cd388949.gradio.live/">here</a> !
+:ferris_wheel: Welcome and feel free to try our demo <a href="https://2a8699da52cd388949.gradio.live/">here</a> !
 
 ## Citation
 ```
