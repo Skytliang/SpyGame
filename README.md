@@ -6,7 +6,7 @@
 
 :fire:This work aims to leverage word guessing games to assess the intelligence of large language models.
 
-Welcome and feel free to try our demo <a href="https://2a8699da52cd388949.gradio.live/">here</a> !
+:ferris_wheel:Welcome and feel free to try our demo <a href="https://2a8699da52cd388949.gradio.live/">here</a> !
 
 ## Citation
 ```
