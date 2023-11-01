@@ -8,7 +8,7 @@
 **Implementaion of our [paper](https://arxiv.org/abs/2310.20499):**
 
 ```
-ELeveraging Word Guessing Games to Assess the Intelligence of Large Language Models
+Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models
 ```
 
 :fire: This work aims to leverage word guessing games to assess the intelligence of large language models.
