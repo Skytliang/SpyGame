@@ -1,0 +1,392 @@
+{
+    "game_name": "SpyGame",
+    "start_time": "2023-10-24_08:19:18",
+    "end_time": "2023-10-24_08:23:05",
+    "win": "villager",
+    "spy": "Player 3 (Hotdog)",
+    "spy_word": "Hotdog",
+    "villager_word": "Sandwich",
+    "host_agent": "gpt-3.5-turbo-0613",
+    "guest_agent": "gpt-4-0613",
+    "guest_identity": "spy",
+    "guest_name": "Player 3",
+    "temperature": 0.3,
+    "num_players": 4,
+    "max_rounds": 7,
+    "players_model": {
+        "Player 3": [
+            "gpt-4-0613",
+            "Hotdog"
+        ],
+        "Player 2": [
+            "gpt-3.5-turbo-0613",
+            "Sandwich"
+        ],
+        "Player 4": [
+            "gpt-3.5-turbo-0613",
+            "Sandwich"
+        ],
+        "Player 1": [
+            "gpt-3.5-turbo-0613",
+            "Sandwich"
+        ]
+    },
+    "seed": 4433,
+    "rounds": {
+        "round-1": {
+            "describe": {
+                "Player 3": "Player 3: It's a popular snack at baseball games and carnivals.",
+                "Player 4": "Player 4: It's a versatile meal with layers of delicious fillings.",
+                "Player 2": "Player 2: It's a portable meal that can be enjoyed on-the-go.",
+                "Player 1": "Player 1: It's a classic lunch option with a variety of fillings."
+            },
+            "describe_cot": {
+                "Player 4": "Player 4: Based on Player 3's description, I believe their keyword is \"Popcorn\".",
+                "Player 2": "Player 2: Based on their descriptions, I think Player 3's keyword might be Hot Dog and Player 4's keyword might be Sandwich.",
+                "Player 1": "Player 1: Based on the descriptions given, I believe Player 2's keyword is Sandwich."
+            },
+            "vote": {
+                "Player 3": "Host: Player 3 votes for Player 4. Reason: Player 3: I vote for Player 4.",
+                "Player 2": "Host: Player 2 votes for Player 3. Reason: Player 2: I vote for Player 3.",
+                "Player 4": "Host: Player 4 votes for Player 3. Reason: Player 4: I vote for Player 3.",
+                "Player 1": "Host: Player 1 votes for Player 3. Reason: Player 1: I vote for Player 3."
+            },
+            "vote_cot": {
+                "Player 3": "Player 3: Based on the descriptions, I think 'Player 1', 'Player 2', and myself are villagers because our descriptions match the characteristics of a hotdog. However, 'Player 4' mentioned \"layers of delicious fillings\" which seems a bit off from the keyword hotdog. So, I suspect 'Player 4' might be the spy.",
+                "Player 2": "Player 2: Based on the descriptions given, I believe Player 1's keyword is Sandwich, Player 3's keyword is Hot Dog, and Player 4's keyword is Sandwich. As for myself, I am also a villager player with the keyword Sandwich. Therefore, the spy player must be Player 3.",
+                "Player 4": "Player 4: Based on the descriptions given, I believe Player 1, Player 2, and Player 3 are all villagers. Their descriptions align with the keyword \"Sandwich\". As for myself, I also have the keyword \"Sandwich\". Therefore, I believe the spy player is Player 4.",
+                "Player 1": "Player 1: Based on the descriptions given, I believe Player 2's keyword is Sandwich. However, I cannot determine the identity of the spy player at this point."
+            },
+            "vote_num": {
+                "Player 1": 0,
+                "Player 2": 0,
+                "Player 3": 3,
+                "Player 4": 1
+            },
+            "result": "Host: Player 3 is the spy and has been voted out. The villager players win, game over.\nSpy's word: Hotdog\tvillager's word: Sandwich"
+        }
+    },
+    "players": {
+        "Player 3": [
+            {
+                "role": "system",
+                "content": "You are Player 3. Your keyword is Hotdog. You are now participating in the \"Who is the Spy\" game.\n\nGame Introduction: 1. There are 4 players. 2. Every player has an identity, either as a villager or a spy. There are 3 villager players and 1 spy player. 3. At the beginning of the game, all players are unsure of their own identity or that of the other players. However, each player has a keyword and each player is unaware of the other players' keywords. 4. All villager players have the same keyword, ditto for spy player. But the villager camp and the spy camp have different keywords. 5. The goal of the villager players is to find the spy player and vote the spy player out of the game. 6. The goal of the spy player is to survive until the end of the game.\n\nGame Flow: 1. This game has multiple rounds. 2. There are two phases in each round: Description phase: Each player describes their keywords in turn. Voting phase: Each player must choose one of the other players. The player who receives the most votes is voted out. 3. The game ends when the victory condition for either camp is reached.\n\nRules you must obey in the description phase: 1. Your description must not contain your keyword. 2. Your description must not deviate from your keyword. 3. Your description must not be a repetition of other players' description.\n\nRecommanded Strategies: Description phase: 1. If you cannot judge your identity, your description should be as conservative as possible. 2. If you think you are a villager player, Your description should avoid letting spy player guess your keyword. 3. If you think you are a spy player, your description should be as close as possible to those of villager players. You can describe the commonalities between their descriptions and your keyword, but must not deviate from your keyword. Voting phase: 1. Guess other players' keywords based on their descriptions. 2. Guess the identities of all players, including yourself, based on the situation in the game."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 3', 'Player 4', 'Player 2', 'Player 1']."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you find the description of one other player that is clearly different from the rest of you players, your description should avoid letting spy player guess your keyword. 2. If your keyword is clearly different from the description of all other players, your description should be as close as possible to other players. 3. If you cannot judge your identity, your description should be as conservative as possible.\n\nHost: Player 3, it's your turn to describe \"Hotdog\" with a sentence of 10 words or less. Your description must not be a repetition of other players' description. Please describe your keyword from another perspective."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 3: It's a popular snack at baseball games and carnivals."
+            },
+            {
+                "role": "user",
+                "content": "Player 4: It's a versatile meal with layers of delicious fillings."
+            },
+            {
+                "role": "user",
+                "content": "Player 2: It's a portable meal that can be enjoyed on-the-go."
+            },
+            {
+                "role": "user",
+                "content": "Player 1: It's a classic lunch option with a variety of fillings."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. Your keyword is: Hotdog. 2. This is a game with two keywords, representing the two factions: villagers and spy. 3. 3 villager players have the same keyword, one spy player has another keyword. 4. There are only two words, one of these two keywords is Hotdog. 5. If you find the description of one other player that is clearly different from the rest of you players, you can judge the player is a spy player and you are a villager player. 6. If your keyword is clearly different from the description of all other players, you can judge that you are a spy player. 7. Remember you should identify exactly one spy player at each round.\n\nHost: Player 3, it's your turn to guess the keywords and identities of these players ['Player 1', 'Player 2', 'Player 3', 'Player 4'], including yourself. You must identify the only one spy player."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the voting phase.\n\nPlayer 3: Based on the descriptions, I think 'Player 1', 'Player 2', and myself are villagers because our descriptions match the characteristics of a hotdog. However, 'Player 4' mentioned \"layers of delicious fillings\" which seems a bit off from the keyword hotdog. So, I suspect 'Player 4' might be the spy."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you think you are a villager player, please vote for the player who you think is most likely to be the spy player. 2. If you think you are a spy player, please vote for the player you think is the most threatening.\n\nHost: Player 3, it's your turn to vote one name from ['Player 1', 'Player 2', 'Player 4'] without reason."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 3: I vote for Player 4."
+            },
+            {
+                "role": "user",
+                "content": "Host: Player 3 is the spy and has been voted out. The villager players win, game over.\nSpy's word: Hotdog\tvillager's word: Sandwich"
+            }
+        ],
+        "Player 2": [
+            {
+                "role": "system",
+                "content": "You are Player 2. Your keyword is Sandwich. You are now participating in the \"Who is the Spy\" game.\n\nGame Introduction: 1. There are 4 players. 2. Every player has an identity, either as a villager or a spy. There are 3 villager players and 1 spy player. 3. At the beginning of the game, all players are unsure of their own identity or that of the other players. However, each player has a keyword and each player is unaware of the other players' keywords. 4. All villager players have the same keyword, ditto for spy player. But the villager camp and the spy camp have different keywords. 5. The goal of the villager players is to find the spy player and vote the spy player out of the game. 6. The goal of the spy player is to survive until the end of the game.\n\nGame Flow: 1. This game has multiple rounds. 2. There are two phases in each round: Description phase: Each player describes their keywords in turn. Voting phase: Each player must choose one of the other players. The player who receives the most votes is voted out. 3. The game ends when the victory condition for either camp is reached.\n\nRules you must obey in the description phase: 1. Your description must not contain your keyword. 2. Your description must not deviate from your keyword. 3. Your description must not be a repetition of other players' description.\n\nRecommanded Strategies: Description phase: 1. If you cannot judge your identity, your description should be as conservative as possible. 2. If you think you are a villager player, Your description should avoid letting spy player guess your keyword. 3. If you think you are a spy player, your description should be as close as possible to those of villager players. You can describe the commonalities between their descriptions and your keyword, but must not deviate from your keyword. Voting phase: 1. Guess other players' keywords based on their descriptions. 2. Guess the identities of all players, including yourself, based on the situation in the game."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 3', 'Player 4', 'Player 2', 'Player 1']."
+            },
+            {
+                "role": "user",
+                "content": "Player 3: It's a popular snack at baseball games and carnivals."
+            },
+            {
+                "role": "user",
+                "content": "Player 4: It's a versatile meal with layers of delicious fillings."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. This is a game with two keywords, representing the two factions: villagers and spy. 2. 3 villager players have the same keyword, one spy player has another keyword. 3. There are only two keywords, one of these two keywords is Sandwich.\n\nHost: Player 2, it's your turn to guess the keywords of these players ['Player 3', 'Player 4']."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the description phase.\n\nPlayer 2: Based on their descriptions, I think Player 3's keyword might be Hot Dog and Player 4's keyword might be Sandwich."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you find the description of one other player that is clearly different from the rest of you players, your description should avoid letting spy player guess your keyword. 2. If your keyword is clearly different from the description of all other players, your description should be as close as possible to other players. 3. If you cannot judge your identity, your description should be as conservative as possible.\n\nHost: Player 2, it's your turn to describe \"Sandwich\" with a sentence of 10 words or less. Your description must not be a repetition of other players' description. Please describe your keyword from another perspective."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 2: It's a portable meal that can be enjoyed on-the-go."
+            },
+            {
+                "role": "user",
+                "content": "Player 1: It's a classic lunch option with a variety of fillings."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. Your keyword is: Sandwich. 2. This is a game with two keywords, representing the two factions: villagers and spy. 3. 3 villager players have the same keyword, one spy player has another keyword. 4. There are only two words, one of these two keywords is Sandwich. 5. If you find the description of one other player that is clearly different from the rest of you players, you can judge the player is a spy player and you are a villager player. 6. If your keyword is clearly different from the description of all other players, you can judge that you are a spy player. 7. Remember you should identify exactly one spy player at each round.\n\nHost: Player 2, it's your turn to guess the keywords and identities of these players ['Player 1', 'Player 2', 'Player 3', 'Player 4'], including yourself. You must identify the only one spy player."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the voting phase.\n\nPlayer 2: Based on the descriptions given, I believe Player 1's keyword is Sandwich, Player 3's keyword is Hot Dog, and Player 4's keyword is Sandwich. As for myself, I am also a villager player with the keyword Sandwich. Therefore, the spy player must be Player 3."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you think you are a villager player, please vote for the player who you think is most likely to be the spy player. 2. If you think you are a spy player, please vote for the player you think is the most threatening.\n\nHost: Player 2, it's your turn to vote one name from ['Player 3', 'Player 1', 'Player 4'] without reason."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 2: I vote for Player 3."
+            },
+            {
+                "role": "user",
+                "content": "Host: Player 3 is the spy and has been voted out. The villager players win, game over.\nSpy's word: Hotdog\tvillager's word: Sandwich"
+            }
+        ],
+        "Player 4": [
+            {
+                "role": "system",
+                "content": "You are Player 4. Your keyword is Sandwich. You are now participating in the \"Who is the Spy\" game.\n\nGame Introduction: 1. There are 4 players. 2. Every player has an identity, either as a villager or a spy. There are 3 villager players and 1 spy player. 3. At the beginning of the game, all players are unsure of their own identity or that of the other players. However, each player has a keyword and each player is unaware of the other players' keywords. 4. All villager players have the same keyword, ditto for spy player. But the villager camp and the spy camp have different keywords. 5. The goal of the villager players is to find the spy player and vote the spy player out of the game. 6. The goal of the spy player is to survive until the end of the game.\n\nGame Flow: 1. This game has multiple rounds. 2. There are two phases in each round: Description phase: Each player describes their keywords in turn. Voting phase: Each player must choose one of the other players. The player who receives the most votes is voted out. 3. The game ends when the victory condition for either camp is reached.\n\nRules you must obey in the description phase: 1. Your description must not contain your keyword. 2. Your description must not deviate from your keyword. 3. Your description must not be a repetition of other players' description.\n\nRecommanded Strategies: Description phase: 1. If you cannot judge your identity, your description should be as conservative as possible. 2. If you think you are a villager player, Your description should avoid letting spy player guess your keyword. 3. If you think you are a spy player, your description should be as close as possible to those of villager players. You can describe the commonalities between their descriptions and your keyword, but must not deviate from your keyword. Voting phase: 1. Guess other players' keywords based on their descriptions. 2. Guess the identities of all players, including yourself, based on the situation in the game."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 3', 'Player 4', 'Player 2', 'Player 1']."
+            },
+            {
+                "role": "user",
+                "content": "Player 3: It's a popular snack at baseball games and carnivals."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. This is a game with two keywords, representing the two factions: villagers and spy. 2. 3 villager players have the same keyword, one spy player has another keyword. 3. There are only two keywords, one of these two keywords is Sandwich.\n\nHost: Player 4, it's your turn to guess the keywords of these players ['Player 3']."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the description phase.\n\nPlayer 4: Based on Player 3's description, I believe their keyword is \"Popcorn\"."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you find the description of one other player that is clearly different from the rest of you players, your description should avoid letting spy player guess your keyword. 2. If your keyword is clearly different from the description of all other players, your description should be as close as possible to other players. 3. If you cannot judge your identity, your description should be as conservative as possible.\n\nHost: Player 4, it's your turn to describe \"Sandwich\" with a sentence of 10 words or less. Your description must not be a repetition of other players' description. Please describe your keyword from another perspective."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 4: It's a versatile meal with layers of delicious fillings."
+            },
+            {
+                "role": "user",
+                "content": "Player 2: It's a portable meal that can be enjoyed on-the-go."
+            },
+            {
+                "role": "user",
+                "content": "Player 1: It's a classic lunch option with a variety of fillings."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. Your keyword is: Sandwich. 2. This is a game with two keywords, representing the two factions: villagers and spy. 3. 3 villager players have the same keyword, one spy player has another keyword. 4. There are only two words, one of these two keywords is Sandwich. 5. If you find the description of one other player that is clearly different from the rest of you players, you can judge the player is a spy player and you are a villager player. 6. If your keyword is clearly different from the description of all other players, you can judge that you are a spy player. 7. Remember you should identify exactly one spy player at each round.\n\nHost: Player 4, it's your turn to guess the keywords and identities of these players ['Player 1', 'Player 2', 'Player 3', 'Player 4'], including yourself. You must identify the only one spy player."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the voting phase.\n\nPlayer 4: Based on the descriptions given, I believe Player 1, Player 2, and Player 3 are all villagers. Their descriptions align with the keyword \"Sandwich\". As for myself, I also have the keyword \"Sandwich\". Therefore, I believe the spy player is Player 4."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you think you are a villager player, please vote for the player who you think is most likely to be the spy player. 2. If you think you are a spy player, please vote for the player you think is the most threatening.\n\nHost: Player 4, it's your turn to vote one name from ['Player 3', 'Player 2', 'Player 1'] without reason."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 4: I vote for Player 3."
+            },
+            {
+                "role": "user",
+                "content": "Host: Player 3 is the spy and has been voted out. The villager players win, game over.\nSpy's word: Hotdog\tvillager's word: Sandwich"
+            }
+        ],
+        "Player 1": [
+            {
+                "role": "system",
+                "content": "You are Player 1. Your keyword is Sandwich. You are now participating in the \"Who is the Spy\" game.\n\nGame Introduction: 1. There are 4 players. 2. Every player has an identity, either as a villager or a spy. There are 3 villager players and 1 spy player. 3. At the beginning of the game, all players are unsure of their own identity or that of the other players. However, each player has a keyword and each player is unaware of the other players' keywords. 4. All villager players have the same keyword, ditto for spy player. But the villager camp and the spy camp have different keywords. 5. The goal of the villager players is to find the spy player and vote the spy player out of the game. 6. The goal of the spy player is to survive until the end of the game.\n\nGame Flow: 1. This game has multiple rounds. 2. There are two phases in each round: Description phase: Each player describes their keywords in turn. Voting phase: Each player must choose one of the other players. The player who receives the most votes is voted out. 3. The game ends when the victory condition for either camp is reached.\n\nRules you must obey in the description phase: 1. Your description must not contain your keyword. 2. Your description must not deviate from your keyword. 3. Your description must not be a repetition of other players' description.\n\nRecommanded Strategies: Description phase: 1. If you cannot judge your identity, your description should be as conservative as possible. 2. If you think you are a villager player, Your description should avoid letting spy player guess your keyword. 3. If you think you are a spy player, your description should be as close as possible to those of villager players. You can describe the commonalities between their descriptions and your keyword, but must not deviate from your keyword. Voting phase: 1. Guess other players' keywords based on their descriptions. 2. Guess the identities of all players, including yourself, based on the situation in the game."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 3', 'Player 4', 'Player 2', 'Player 1']."
+            },
+            {
+                "role": "user",
+                "content": "Player 3: It's a popular snack at baseball games and carnivals."
+            },
+            {
+                "role": "user",
+                "content": "Player 4: It's a versatile meal with layers of delicious fillings."
+            },
+            {
+                "role": "user",
+                "content": "Player 2: It's a portable meal that can be enjoyed on-the-go."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. This is a game with two keywords, representing the two factions: villagers and spy. 2. 3 villager players have the same keyword, one spy player has another keyword. 3. There are only two keywords, one of these two keywords is Sandwich.\n\nHost: Player 1, it's your turn to guess the keywords of these players ['Player 2', 'Player 3', 'Player 4']."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the description phase.\n\nPlayer 1: Based on the descriptions given, I believe Player 2's keyword is Sandwich."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you find the description of one other player that is clearly different from the rest of you players, your description should avoid letting spy player guess your keyword. 2. If your keyword is clearly different from the description of all other players, your description should be as close as possible to other players. 3. If you cannot judge your identity, your description should be as conservative as possible.\n\nHost: Player 1, it's your turn to describe \"Sandwich\" with a sentence of 10 words or less. Your description must not be a repetition of other players' description. Please describe your keyword from another perspective."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 1: It's a classic lunch option with a variety of fillings."
+            },
+            {
+                "role": "user",
+                "content": "Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. Your keyword is: Sandwich. 2. This is a game with two keywords, representing the two factions: villagers and spy. 3. 3 villager players have the same keyword, one spy player has another keyword. 4. There are only two words, one of these two keywords is Sandwich. 5. If you find the description of one other player that is clearly different from the rest of you players, you can judge the player is a spy player and you are a villager player. 6. If your keyword is clearly different from the description of all other players, you can judge that you are a spy player. 7. Remember you should identify exactly one spy player at each round.\n\nHost: Player 1, it's your turn to guess the keywords and identities of these players ['Player 1', 'Player 2', 'Player 3', 'Player 4'], including yourself. You must identify the only one spy player."
+            },
+            {
+                "role": "assistant",
+                "content": "Here is my thought during the first round of the voting phase.\n\nPlayer 1: Based on the descriptions given, I believe Player 2's keyword is Sandwich. However, I cannot determine the identity of the spy player at this point."
+            },
+            {
+                "role": "user",
+                "content": "System: 1. If you think you are a villager player, please vote for the player who you think is most likely to be the spy player. 2. If you think you are a spy player, please vote for the player you think is the most threatening.\n\nHost: Player 1, it's your turn to vote one name from ['Player 3', 'Player 4', 'Player 2'] without reason."
+            },
+            {
+                "role": "assistant",
+                "content": "Player 1: I vote for Player 3."
+            },
+            {
+                "role": "user",
+                "content": "Host: Player 3 is the spy and has been voted out. The villager players win, game over.\nSpy's word: Hotdog\tvillager's word: Sandwich"
+            }
+        ]
+    },
+    "players_idx": {
+        "Player 3": [
+            9996.0,
+            9996.0,
+            -2.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            -1.0,
+            9998.0,
+            0.0,
+            0.0,
+            9999.0
+        ],
+        "Player 2": [
+            9995.0,
+            9995.0,
+            9995.0,
+            9995.0,
+            -3.0,
+            9996.0,
+            -2.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            -1.0,
+            9998.0,
+            0.0,
+            0.0,
+            9999.0
+        ],
+        "Player 4": [
+            9995.0,
+            9995.0,
+            9995.0,
+            -3.0,
+            9996.0,
+            -2.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            9997.0,
+            -1.0,
+            9998.0,
+            0.0,
+            0.0,
+            9999.0
+        ],
+        "Player 1": [
+            9995.0,
+            9995.0,
+            9995.0,
+            9995.0,
+            9995.0,
+            -3.0,
+            9996.0,
+            -2.0,
+            9997.0,
+            9997.0,
+            -1.0,
+            9998.0,
+            0.0,
+            0.0,
+            9999.0
+        ]
+    },
+    "prompts": {
+        "meta_prompt": "You are {name}. Your keyword is {secret_word}. You are now participating in the \"Who is the Spy\" game.\n\nGame Introduction: 1. There are {num_players} players. 2. Every player has an identity, either as a villager or a spy. There are {num_villager} villager players and {num_spy} spy player. 3. At the beginning of the game, all players are unsure of their own identity or that of the other players. However, each player has a keyword and each player is unaware of the other players' keywords. 4. All villager players have the same keyword, ditto for spy player. But the villager camp and the spy camp have different keywords. 5. The goal of the villager players is to find the spy player and vote the spy player out of the game. 6. The goal of the spy player is to survive until the end of the game.\n\nGame Flow: 1. This game has multiple rounds. 2. There are two phases in each round: Description phase: Each player describes their keywords in turn. Voting phase: Each player must choose one of the other players. The player who receives the most votes is voted out. 3. The game ends when the victory condition for either camp is reached.\n\nRules you must obey in the description phase: 1. Your description must not contain your keyword. 2. Your description must not deviate from your keyword. 3. Your description must not be a repetition of other players' description.\n\nRecommanded Strategies: Description phase: 1. If you cannot judge your identity, your description should be as conservative as possible. 2. If you think you are a villager player, Your description should avoid letting spy player guess your keyword. 3. If you think you are a spy player, your description should be as close as possible to those of villager players. You can describe the commonalities between their descriptions and your keyword, but must not deviate from your keyword. Voting phase: 1. Guess other players' keywords based on their descriptions. 2. Guess the identities of all players, including yourself, based on the situation in the game.",
+        "word_judgement": "System: 1. This is a game with two keywords, representing the two factions: villagers and spy. 2. {num_villager} villager players have the same keyword, one spy player has another keyword. 3. There are only two keywords, one of these two keywords is {player_secret_word}.\n\nHost: {name}, it's your turn to guess the keywords of these players {options}.",
+        "describe_prompt": "System: 1. If you find the description of one other player that is clearly different from the rest of you players, your description should avoid letting spy player guess your keyword. 2. If your keyword is clearly different from the description of all other players, your description should be as close as possible to other players. 3. If you cannot judge your identity, your description should be as conservative as possible.\n\nHost: {name}, it's your turn to describe \"{secret_word}\" with a sentence of 10 words or less. Your description must not be a repetition of other players' description. Please describe your keyword from another perspective.",
+        "identity_judgement": "System: 1. Your keyword is: {player_secret_word}. 2. This is a game with two keywords, representing the two factions: villagers and spy. 3. {num_villager} villager players have the same keyword, one spy player has another keyword. 4. There are only two words, one of these two keywords is {player_secret_word}. 5. If you find the description of one other player that is clearly different from the rest of you players, you can judge the player is a spy player and you are a villager player. 6. If your keyword is clearly different from the description of all other players, you can judge that you are a spy player. 7. Remember you should identify exactly one spy player at each round.\n\nHost: {name}, it's your turn to guess the keywords and identities of these players {options}, including yourself. You must identify the only one spy player.",
+        "vote_prompt": "System: 1. If you think you are a villager player, please vote for the player who you think is most likely to be the spy player. 2. If you think you are a spy player, please vote for the player you think is the most threatening.\n\nHost: {name}, it's your turn to vote one name from {options} without reason.",
+        "vote_result": "Host: {name1} votes for {name2}. Reason: {response}",
+        "spy_win": "Host: {selected_name} is not the spy, the spy player {spy_name} has survived untill the end. The spy player wins, game over.\nSpy's word: {spy_word}\tvillager's word: {villager_word}",
+        "villager_win": "Host: {selected_name} is the spy and has been voted out. The villager players win, game over.\nSpy's word: {spy_word}\tvillager's word: {villager_word}",
+        "continue": "Host: {selected_name} has been voted out, but he/she is not the spy player. Let's continue the game.",
+        "tie_prompt": "Host: There is a tie among {options}. They will proceed with a new round of descriptions, and the remaining players will vote again.",
+        "json_save": "Now, please output your judgement in json format, with the format as follows: {json_format}."
+    }
+}
