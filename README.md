@@ -12,7 +12,7 @@
 ```
 @misc{liang2023leveraging,
       title={Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models}, 
-      author={Tian Liang and Zhiwei He and Jen-tes Huang and Wenxuan Wang and Wenxiang Jiao and Rui Wang and Yujiu Yang and Zhaopeng Tu and Shuming Shi and Xing Wang},
+      author={Tian Liang and Zhiwei He and Jen-tse Huang and Wenxuan Wang and Wenxiang Jiao and Rui Wang and Yujiu Yang and Zhaopeng Tu and Shuming Shi and Xing Wang},
       year={2023},
       eprint={2310.20499},
       archivePrefix={arXiv},
