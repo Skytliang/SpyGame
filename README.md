@@ -50,9 +50,24 @@ To get started, follow these steps:
 6. **Try our demo:** If you just want to have a try, feel free to check our demo [here](https://64302e3be3fabc2338.gradio.live/).
 
 ## Case Study
+Note: For the sake of fairness, we randomly shuffle the speaking order of all agents. Please refer to our paper for more details.
 
+In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img src='imgs/number/2.png' height=20> and Player 4 <img src='imgs/number/4.png' height=20> are villager players <img src='imgs/angel.png' height=20> with the same word **"BERT"**. Player 3 <img src='imgs/number/3.png' height=20> is the spy player with the keyword "GPT". Here, all the four agents are consistently designated as GPT-4 LLMs.
 
+##### Speaking phase in the first round
+* Host <img src='imgs/judge.png' height=20>: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 2', 'Player 1', 'Player 3', 'Player 4'].
+* Player 2: It's a revolutionary tool in the field of natural language processing.
+* Player 1: It's a significant breakthrough in understanding contextual nuances in language.
+* Player 3: It's a sophisticated system that can mimic human conversation effectively.
+* Player 4: It's an advanced method that revolutionized machine learning language models.
+##### Voting phase in the first round
+* Host: Player 1 votes for Player 4. Reason: Based on the descriptions, I believe that Player 2, Player 3, and I are likely villagers because our descriptions all relate to a tool or system used in language processing and machine learning. However, Player 4's description seems slightly different, focusing more on the method rather than the tool itself. Therefore, I suspect that Player 4 might be the spy. I vote for Player 4.
 
+* Host: Player 4 votes for Player 3. Reason: Based on the descriptions, I believe that Player 1, Player 2, and I share the same keyword, which is related to a breakthrough in language processing. However, Player 3's description seems slightly different, focusing more on mimicking human conversation rather than understanding language. Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.
+
+* Host: Player 3 votes for Player 4. Reason: Based on the descriptions, it seems like we all have a similar understanding of our keyword. We're all talking about an advanced technology related to language processing and machine learning. Therefore, I believe that our keyword is GPT. As for the spy, it's hard to say at this point since everyone's description aligns well with the keyword. However, if I have to choose, I would say Player 4 might be the spy because their description was slightly more specific than the rest of us. I vote for Player 4.
+
+* Host: Player 2 votes for Player 4. Reason: Based on the descriptions, it seems like we're all talking about something related to language processing and machine learning. I believe Player 1, Player 3, and myself are villagers since our descriptions align closely with my keyword, BERT. However, Player 4's description seems a bit different, mentioning an 'advanced method' rather than a tool or system. Therefore, I suspect Player 4 might be the spy. I vote for Player 4.
 
 ## Citation
 ```ruby
