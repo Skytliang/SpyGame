@@ -55,7 +55,7 @@ Note: For the sake of fairness, we randomly shuffle the speaking order of all ag
 In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img src='imgs/number/2.png' height=20> and Player 4 <img src='imgs/number/4.png' height=20> are villager players <img src='imgs/angel.png' height=20> with the same word **"BERT"**. Player 3 <img src='imgs/number/3.png' height=20> is the spy player <img src='imgs/devil.png' height=20> with the keyword **"GPT"**. Here, all the four agents are consistently designated as GPT-4 LLMs.
 
 #### Speaking phase in the first round
-* Host <img src='imgs/judge.png' height=20>: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 2', 'Player 1', 'Player 3', 'Player 4'].
+* <img src='imgs/judge.png' height=20> Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 2', 'Player 1', 'Player 3', 'Player 4'].
 
 * <img src='imgs/number/2.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**): It's a revolutionary tool in the field of natural language processing.
 
@@ -66,7 +66,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 * <img src='imgs/number/4.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**): It's an advanced method that revolutionized machine learning language models.
 
 #### Voting phase in the first round
-* Host <img src='imgs/judge.png' height=20>: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']. And then vote for the player you think is most likely to be a spy agent.
+* <img src='imgs/judge.png' height=20> Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']. And then vote for the player you think is most likely to be a spy agent.
 
 * <img src='imgs/number/1.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/4.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**). Reason: Based on the descriptions, I believe that Player 2, Player 3, and I are likely villagers because our descriptions all relate to a tool or system used in language processing and machine learning. However, **Player 4's description seems slightly different, focusing more on the method rather than the tool itself.** Therefore, I suspect that Player 4 might be the spy. I vote for Player 4.
 
@@ -76,10 +76,10 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 
 * <img src='imgs/number/2.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/4.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**). Reason: Based on the descriptions, it seems like we're all talking about something related to language processing and machine learning. I believe Player 1, Player 3, and myself are villagers since our descriptions align closely with my keyword, BERT. However, **Player 4's description seems a bit different, mentioning an 'advanced method' rather than a tool or system.** Therefore, I suspect Player 4 might be the spy. I vote for Player 4.
 
-* Host: Player 4 has been voted out, but he/she is not the spy player. Let's continue the game.
+* <img src='imgs/judge.png' height=20> Host: Player 4 has been voted out, but he/she is not the spy player. Let's continue the game.
 
 #### Speaking phase in the second round
-* Host <img src='imgs/judge.png' height=20>: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 2', 'Player 1', 'Player 3'].
+* <img src='imgs/judge.png' height=20> Host: It is now the description phase, please take turns to describe the keyword you received in the order of ['Player 2', 'Player 1', 'Player 3'].
 
 * <img src='imgs/number/2.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**): It's a transformative approach to understanding written language by machines.
 
@@ -88,7 +88,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 * <img src='imgs/number/3.png' height=20> (<img src='imgs/devil.png' height=20>, **GPT**): It's an AI model that excels in creating coherent text.
 
 #### Voting phase in the second round
-* Host <img src='imgs/judge.png' height=20>: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3']. And then vote for the player you think is most likely to be a spy agent.
+* <img src='imgs/judge.png' height=20> Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3']. And then vote for the player you think is most likely to be a spy agent.
 
 * <img src='imgs/number/1.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/3.png' height=20> (<img src='imgs/devil.png' height=20>, **GPT**). Reason: Based on the descriptions, I believe that Player 2 and I share the same keyword, as our descriptions both refer to a transformative model in language processing. However, **Player 3's description seems slightly different, focusing more on the creation of coherent text rather than understanding it.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.
 
@@ -96,7 +96,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 
 * <img src='imgs/number/2.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/3.png' height=20> (<img src='imgs/devil.png' height=20>, **GPT**). Reason: After hearing the descriptions in this round, I still believe that Player 1 and I are villagers. Our descriptions continue to align closely with my keyword, BERT, focusing on language interpretation by machines. However, **Player 3's description seems a bit off. While it does mention an AI model and text creation, it doesn't specifically refer to understanding or interpreting language, which is a key aspect of BERT.** Therefore, I suspect Player 3 might be the spy. I vote for Player 3.
 
-* Host: Player 3 is the spy and has been voted out. The villager players win, game over.
+* <img src='imgs/judge.png' height=20> Host: Player 3 is the spy and has been voted out. The villager players win, game over.
 
 ## Citation
 ```ruby
