@@ -66,7 +66,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 * <img src='imgs/number/4.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**): It's an advanced method that revolutionized machine learning language models.
 
 #### Voting phase in the first round
-* Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']. And then vote for the player you think is most likely to be a spy agent.
+* Host <img src='imgs/judge.png' height=20>: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']. And then vote for the player you think is most likely to be a spy agent.
 
 * <img src='imgs/number/1.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/4.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**). Reason: Based on the descriptions, I believe that Player 2, Player 3, and I are likely villagers because our descriptions all relate to a tool or system used in language processing and machine learning. However, **Player 4's description seems slightly different, focusing more on the method rather than the tool itself.** Therefore, I suspect that Player 4 might be the spy. I vote for Player 4.
 
@@ -88,7 +88,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 * <img src='imgs/number/3.png' height=20> (<img src='imgs/devil.png' height=20>, **GPT**): It's an AI model that excels in creating coherent text.
 
 #### Voting phase in the second round
-* Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3']. And then vote for the player you think is most likely to be a spy agent.
+* Host <img src='imgs/judge.png' height=20>: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3']. And then vote for the player you think is most likely to be a spy agent.
 
 * <img src='imgs/number/1.png' height=20> (<img src='imgs/angel.png' height=20>, **BERT**) votes for <img src='imgs/number/3.png' height=20> (<img src='imgs/devil.png' height=20>, **GPT**). Reason: Based on the descriptions, I believe that Player 2 and I share the same keyword, as our descriptions both refer to a transformative model in language processing. However, **Player 3's description seems slightly different, focusing more on the creation of coherent text rather than understanding it.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.
 
