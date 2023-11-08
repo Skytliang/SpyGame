@@ -23,7 +23,7 @@ Leveraging Word Guessing Games to Assess the Intelligence of Large Language Mode
   <img src='imgs/spygame.jpg' width=600>
 </p>
 
-## :lightning: Quickstart
+## :zap: Quickstart
 To get started, follow these steps:
 
 1. **Clone the GitHub Repository:** Begin by cloning the repository using the command:
@@ -42,7 +42,7 @@ To get started, follow these steps:
    ```
 4. **Set OpenAI API Key:** Manually set your actual API key in `SpyGame/utils/gpt3_apikeys.json`. 
 
-5. **Build Your Software:** Use the following command to run **SpyGame**. The complete game process will be saved in `SpyGame/benchmark/host_agent/guest_agent`:
+5. **Build Your Benchmark:** Use the following command to run **SpyGame**. The complete game process will be saved in `SpyGame/benchmark/host_agent/guest_agent`:
    ```
     sh run_spygame.sh
    ```
