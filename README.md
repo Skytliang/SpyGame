@@ -59,7 +59,7 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 
 * Player 2: It's a revolutionary tool in the field of natural language processing.
 
-* Player 1: It's a significant breakthrough in understanding contextual nuances in language.
+* <img src='imgs/number/1.png' height=20> (<img src='imgs/devil.png' height=20>, **BERT**): It's a significant breakthrough in understanding contextual nuances in language.
 
 * Player 3: It's a sophisticated system that can mimic human conversation effectively.
 
@@ -68,13 +68,13 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 #### Voting phase in the first round
 * Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3', 'Player 4']. And then vote for the player you think is most likely to be a spy agent.
 
-* <details><summary><br>Player 1 votes for Player 4. Reason: Player 4's description seems slightly different, focusing more on the method rather than the tool itself.</br></summary>Based on the descriptions, I believe that Player 2, Player 3, and I are likely villagers because our descriptions all relate to a tool or system used in language processing and machine learning. However, **Player 4's description seems slightly different, focusing more on the method rather than the tool itself.** Therefore, I suspect that Player 4 might be the spy. I vote for Player 4.</details>
+* <img src='imgs/number/1.png' height=20> (<img src='imgs/devil.png' height=20>, **BERT**) votes for Player 4. Reason: Based on the descriptions, I believe that Player 2, Player 3, and I are likely villagers because our descriptions all relate to a tool or system used in language processing and machine learning. However, **Player 4's description seems slightly different, focusing more on the method rather than the tool itself.** Therefore, I suspect that Player 4 might be the spy. I vote for Player 4.
 
-* Player 4 votes for Player 3. Reason: Player 3's description seems slightly different, focusing more on mimicking human conversation rather than understanding language. <details><summary><b>Full Reason</b></summary>Based on the descriptions, I believe that Player 1, Player 2, and I share the same keyword, which is related to a breakthrough in language processing. However, **Player 3's description seems slightly different, focusing more on mimicking human conversation rather than understanding language.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.</details>
+* Player 4 votes for Player 3. Reason: Based on the descriptions, I believe that Player 1, Player 2, and I share the same keyword, which is related to a breakthrough in language processing. However, **Player 3's description seems slightly different, focusing more on mimicking human conversation rather than understanding language.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.
 
-* Player 3 votes for Player 4. Reason: I would say Player 4 might be the spy because their description was slightly more specific than the rest of us. <details><summary><b>Full Reason</b></summary>Based on the descriptions, it seems like we all have a similar understanding of our keyword. We're all talking about an advanced technology related to language processing and machine learning. Therefore, I believe that our keyword is GPT. **As for the spy, it's hard to say at this point since everyone's description aligns well with the keyword.** However, if I have to choose, **I would say Player 4 might be the spy because their description was slightly more specific than the rest of us.** I vote for Player 4.</details>
+* Player 3 votes for Player 4. Reason: Based on the descriptions, it seems like we all have a similar understanding of our keyword. We're all talking about an advanced technology related to language processing and machine learning. Therefore, I believe that our keyword is GPT. **As for the spy, it's hard to say at this point since everyone's description aligns well with the keyword.** However, if I have to choose, **I would say Player 4 might be the spy because their description was slightly more specific than the rest of us.** I vote for Player 4.
 
-* Player 2 votes for Player 4. Reason: Player 4's description seems a bit different, mentioning an 'advanced method' rather than a tool or system. <details><summary><b>Full Reason</b></summary>Based on the descriptions, it seems like we're all talking about something related to language processing and machine learning. I believe Player 1, Player 3, and myself are villagers since our descriptions align closely with my keyword, BERT. However, **Player 4's description seems a bit different, mentioning an 'advanced method' rather than a tool or system.** Therefore, I suspect Player 4 might be the spy. I vote for Player 4.</details>
+* Player 2 votes for Player 4. Reason: Based on the descriptions, it seems like we're all talking about something related to language processing and machine learning. I believe Player 1, Player 3, and myself are villagers since our descriptions align closely with my keyword, BERT. However, **Player 4's description seems a bit different, mentioning an 'advanced method' rather than a tool or system.** Therefore, I suspect Player 4 might be the spy. I vote for Player 4.
 
 * Host: Player 4 has been voted out, but he/she is not the spy player. Let's continue the game.
 
@@ -83,18 +83,18 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
 
 * Player 2: It's a transformative approach to understanding written language by machines.
 
-* Player 1: It's a model that has transformed the way machines interpret text.
+* <img src='imgs/number/1.png' height=20> (<img src='imgs/devil.png' height=20>, **BERT**): It's a model that has transformed the way machines interpret text.
 
 * Player 3: It's an AI model that excels in creating coherent text.
 
 #### Voting phase in the second round
 * Host: It is now the voting phase, Please judge the keywords and identities of these alive players ['Player 1', 'Player 2', 'Player 3']. And then vote for the player you think is most likely to be a spy agent.
 
-* Player 1 votes for Player 3. Reason: Player 3's description seems slightly different, focusing more on the creation of coherent text rather than understanding it. <details><summary><b>Full Reason</b></summary>Based on the descriptions, I believe that Player 2 and I share the same keyword, as our descriptions both refer to a transformative model in language processing. However, **Player 3's description seems slightly different, focusing more on the creation of coherent text rather than understanding it.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.</details>
+* <img src='imgs/number/1.png' height=20> (<img src='imgs/devil.png' height=20>, **BERT**) votes for Player 3. Reason: Based on the descriptions, I believe that Player 2 and I share the same keyword, as our descriptions both refer to a transformative model in language processing. However, **Player 3's description seems slightly different, focusing more on the creation of coherent text rather than understanding it.** Therefore, I suspect that Player 3 might be the spy. I vote for Player 3.
 
-* Player 3 votes for Player 1. Reason: I would say Player 1 might be the spy because their description was slightly more generic than the rest of us. <details><summary><b>Full Reason</b></summary>Based on the descriptions, it seems like we all have a similar understanding of our keyword. We're all talking about an advanced technology related to language processing and machine learning. Therefore, I believe that our keyword is GPT. **As for the spy, it's hard to say at this point since everyone's description aligns well with the keyword.** However, if I have to choose, **I would say Player 1 might be the spy because their description was slightly more generic than the rest of us.** I vote for Player 1.</details>
+* Player 3 votes for Player 1. Reason: Based on the descriptions, it seems like we all have a similar understanding of our keyword. We're all talking about an advanced technology related to language processing and machine learning. Therefore, I believe that our keyword is GPT. **As for the spy, it's hard to say at this point since everyone's description aligns well with the keyword.** However, if I have to choose, **I would say Player 1 might be the spy because their description was slightly more generic than the rest of us.** I vote for Player 1.
 
-* Player 2 votes for Player 3. Reason: Player 3's description seems a bit off. While it does mention an AI model and text creation, it doesn't specifically refer to understanding or interpreting language, which is a key aspect of BERT. <details><summary><b>Full Reason</b></summary>After hearing the descriptions in this round, I still believe that Player 1 and I are villagers. Our descriptions continue to align closely with my keyword, BERT, focusing on language interpretation by machines. However, **Player 3's description seems a bit off. While it does mention an AI model and text creation, it doesn't specifically refer to understanding or interpreting language, which is a key aspect of BERT.** Therefore, I suspect Player 3 might be the spy. I vote for Player 3.</details>
+* Player 2 votes for Player 3. Reason: After hearing the descriptions in this round, I still believe that Player 1 and I are villagers. Our descriptions continue to align closely with my keyword, BERT, focusing on language interpretation by machines. However, **Player 3's description seems a bit off. While it does mention an AI model and text creation, it doesn't specifically refer to understanding or interpreting language, which is a key aspect of BERT.** Therefore, I suspect Player 3 might be the spy. I vote for Player 3.
 
 * Host: Player 3 is the spy and has been voted out. The villager players win, game over.
 
@@ -109,5 +109,4 @@ In this case, Player 1 <img src='imgs/number/1.png' height=20>, Player 2 <img sr
       primaryClass={cs.CL}
 }
 ```
-
 
