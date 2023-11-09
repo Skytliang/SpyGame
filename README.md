@@ -11,7 +11,7 @@
 Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models
 ```
 
-:ferris_wheel: Welcome and feel free to try our demo <a href="https://64302e3be3fabc2338.gradio.live/">here</a> !
+:ferris_wheel: Welcome and feel free to try our demo <a href="https://cbe95b25ab37238e74.gradio.live/">here</a> !
 
 ## :book: Overview
 
@@ -47,7 +47,7 @@ To get started, follow these steps:
     sh run_spygame.sh
    ```
 
-6. **Try our demo:** If you just want to have a try, feel free to check our demo [here](https://64302e3be3fabc2338.gradio.live/).
+6. **Try our demo:** If you just want to have a try, feel free to check our demo [here](https://cbe95b25ab37238e74.gradio.live/).
 
 ## Case Study
 Note: For the sake of fairness, we randomly shuffle the speaking order of all agents. Please refer to our paper for more details.
